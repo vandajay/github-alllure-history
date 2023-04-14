@@ -11,7 +11,7 @@ on:
       - '!allure-template.yml'
       - '**/allure-history.yml'
       - 'allure-report-action/*'
-
+  workflow_dispatch:
 jobs:
   autotests:
     name: Upload allure results to Allure EE
